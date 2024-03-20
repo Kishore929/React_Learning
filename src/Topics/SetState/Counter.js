@@ -18,13 +18,14 @@ class Counter extends Component {
         //     { count: this.state.count + 1 }, () => { console.log('callback value', this.state.count) }
         // )
 
-
+        // code has to be executed after the state has been updated ? 
+        // place that code in the callback function which is the second argument to the said state method 
+        
         // if we don't use prevstate it will not update because it is taking only current state
         
-        this.setState((prevState) => ({
-            count: prevState.count + 1
-        }), () => { console.log('callback value', this.state.count) })
-            //don't put here
+        this.setState((prevState) => ({count: prevState.count + 1}), () => { console.log('callback value', this.state.count) })
+
+            //don't put here outside of setstate
          console.log(this.state.count)
 
     }
