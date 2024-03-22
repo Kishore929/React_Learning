@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Login_Sign Up
 Kishore Added few folders for this login and signup functionality and I added few images also. This is a sample example.
+
+###
+we can install any dependencies ( npm i react-scripts@5.0.1 ) npm i {dependence}@{version}
