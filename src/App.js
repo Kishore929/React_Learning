@@ -7,6 +7,11 @@ import Counter from './Topics/SetState/Counter';
 import ClassComp from './Topics/Props/ClassComp';
 import FunctionClick from './Topics/EventHandle/FunctionClick';
 import ClassClick from './Topics/EventHandle/ClassClick';
+import EventBind from './Topics/BindingEventHandle/EventBind';
+import Parent from './Topics/Method as props/Parent';
+import NameList from './Topics/ListRender/NameList';
+import Stylesheet from './Topics/Style/Stylesheet';
+import Inline from './Topics/Style/Inline';
 
 function App() {
   return (
@@ -20,9 +25,14 @@ function App() {
       {/* <ClassComp fname = "Ravi kishore" lname = "meesala"/> */}
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
-
+      {/* <EventBind/> */}
+      {/* <Parent/> */}
+      {/* <NameList/> */}
+      {/* <Stylesheet primary = {false} /> */}
+      {/* <Inline/> */}
 
       
+
     </div>
   );
 }
