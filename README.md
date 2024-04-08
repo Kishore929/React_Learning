@@ -71,3 +71,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Login_Sign Up
 Kishore Added few folders for this login and signup functionality and I added few images also. This is a sample example.
+
+
+
+
+##
+we can create a component by extending the pure component class.
+A pure component implements the chute component update lifecycle method by performing a shallow comparison on the props and state of the component 
+If there is no difference, the component is not rerender thereby providing a performance boost 
+when you create a pure component it is a good idea to ensure that all the children components are also pure to avoid unexpected behavior
+finally when you are using pure components never mutate this state. always return a new object that reflects the new state
+let me tell you it's probably safe to use regular components most of the time unless of course you are seeing a performance head in some components
+alright that is about pure components
+
+we can pass like this if we use funcomp but we don't want to rerender without update
+export default React.memo(functionname)
